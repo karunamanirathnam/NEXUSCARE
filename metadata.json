@@ -1,0 +1,8 @@
+{
+  "name": "NexusCare - Secure Hospital Appointment System",
+  "description": "A cloud-based healthcare platform for managing appointments, patient records, and doctor schedules with AWS integration.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
