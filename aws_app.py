@@ -5,7 +5,7 @@ import uuid
 import os
 from datetime import datetime
 from botocore.exceptions import ClientError
-app = Flask(__name__)
+ app = Flask(__name__)
 CORS(app)
 
 # --- AWS Configuration ---
