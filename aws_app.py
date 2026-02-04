@@ -13,7 +13,7 @@ CORS(app)
 # IAM: No hardcoded Access Keys. Boto3 automatically uses the IAM Role on EC2 
 # or the local credentials configured via 'aws configure'.
 REGION = 'us-east-1'
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:604665149129:aws_capstone_topic' 
+SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:717279732218:nexuscare' 
 
 # Initialize AWS Services
 dynamodb = boto3.resource('dynamodb', region_name=REGION)
